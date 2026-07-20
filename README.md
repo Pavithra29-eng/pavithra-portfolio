@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# 🌐 Pavithra Lokesh — Personal Portfolio
 
-## Project info
+A modern, responsive personal portfolio website built with React to showcase my skills, projects, experience, and journey as a Computer Engineering student and AI/ML enthusiast.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ About the Project
 
-## How can I edit this code?
+This portfolio is designed to present my technical skills, featured projects, certifications, and experience in a clean and interactive way.
 
-There are several ways of editing your application.
+It highlights my interests in:
 
-**Use Lovable**
+- 💻 Front-end Web Development
+- 🤖 Artificial Intelligence & Machine Learning
+- 🧠 Data Structures & Algorithms
+- ☁️ Cloud Technologies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- Responsive design for desktop, tablet, and mobile
+- Interactive and modern user interface
+- Smooth navigation between sections
+- Featured projects showcase
+- Skills and technologies section
+- Experience and certifications
+- Contact section
+- Clean animations and transitions
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 - Tailwind CSS
 
-## How can I deploy this project?
+### Programming & Data
+- Python
+- C++
+- NumPy
+- Pandas
+- Matplotlib
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### AI / Machine Learning
+- Machine Learning
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Vector Search
 
-## Can I connect a custom domain to my Lovable project?
+### Backend & Database
+- Node.js
+- Express.js
+- MongoDB
+- MySQL
 
-Yes, you can!
+### Tools
+- Git
+- GitHub
+- VS Code
+- Vite
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📂 Featured Projects
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 🤖 SmartBuddy
+A private AI search engine and chatbot built from scratch in Python. It uses vector search algorithms and a RAG pipeline to allow users to chat with their own documents locally using Ollama.
+
+**Technologies:** Python, Vector Search, RAG, Ollama, KD-Tree, HNSW
+
+---
+
+### 💻 CodeMitra
+A multilingual Python error translator that helps beginner programmers understand programming errors in simple English, Hindi, and Marathi.
+
+**Technologies:** Python, AI/ML, React, APIs
+
+---
+
+### 💬 Real-Time C++ Chat Server
+A real-time chat application built from scratch in C++ to understand networking, socket programming, and how real-time communication systems work internally.
+
+**Technologies:** C++, Socket Programming, Networking, Multithreading
+
+## 📁 Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Pavithra29-eng/pavithra-portfolio.git
