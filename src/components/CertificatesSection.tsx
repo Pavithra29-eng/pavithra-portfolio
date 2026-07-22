@@ -8,17 +8,28 @@ const certificates = [
     id: 1,
     title: 'SQL Using AI Workshop',
     issuer: 'AI For Techies',
-    instructor: '3-hour workshop',
+    instructor: 'Aditya Kachave',
     date: 'August 2025',
+    description: 'Learned to extract, query, and automate data tasks using SQL with AI-assisted tools.',
     certificatePath: '/certificates/sql-using-ai-workshop-certificate.png',
   },
   {
     id: 2,
     title: 'Developer and Technology',
     issuer: 'Accenture',
-    instructor: 'SDLC, Agile/Waterfall, Debugging, STLC',
+    instructor: 'Shaheen Sayed',
     date: 'December 2024',
+    description: 'Covered SDLC, Agile & Waterfall methodologies, code debugging, and software testing lifecycle.',
     certificatePath: '/certificates/accenture-developer-technology-certificate.png',
+  },
+  {
+    id: 3,
+    title: 'Generative AI: Prompt Engineering Basics',
+    issuer: 'IBM (Coursera)',
+    instructor: 'Antonio Cangiano',
+    date: 'July 2026',
+    description: 'Learned the fundamentals of crafting effective prompts for generative AI models.',
+    certificatePath: '/certificates/prompt-engineering-basics-certificate.png',
   },
 ];
 
@@ -46,9 +57,14 @@ const CertificateCard = ({ cert, index, isInView }: { cert: typeof certificates[
           {cert.title}
         </h3>
 
+        {/* Description */}
+        <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+          {cert.description}
+        </p>
+
         {/* Details */}
-        <div className="space-y-1 text-sm text-muted-foreground mb-5">
-          <p>Instructor: {cert.instructor}</p>
+        <div className="space-y-1 text-xs text-muted-foreground mb-5">
+          <p>{cert.instructor}</p>
           <p>Completed: {cert.date}</p>
         </div>
 
