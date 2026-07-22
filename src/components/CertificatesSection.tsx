@@ -6,6 +6,15 @@ import CertificatePreviewModal from './CertificatePreviewModal';
 const certificates = [
   {
     id: 1,
+    title: 'Generative AI: Prompt Engineering Basics',
+    issuer: 'IBM (Coursera)',
+    instructor: 'Antonio Cangiano',
+    date: 'July 2026',
+    description: 'Learned the fundamentals of crafting effective prompts for generative AI models.',
+    certificatePath: '/certificates/prompt-engineering-basics-certificate.png',
+  },
+  {
+    id: 2,
     title: 'SQL Using AI Workshop',
     issuer: 'AI For Techies',
     instructor: 'Aditya Kachave',
@@ -14,7 +23,7 @@ const certificates = [
     certificatePath: '/certificates/sql-using-ai-workshop-certificate.png',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Developer and Technology',
     issuer: 'Accenture',
     instructor: 'Shaheen Sayed',
@@ -22,15 +31,7 @@ const certificates = [
     description: 'Covered SDLC, Agile & Waterfall methodologies, code debugging, and software testing lifecycle.',
     certificatePath: '/certificates/accenture-developer-technology-certificate.png',
   },
-  {
-    id: 3,
-    title: 'Generative AI: Prompt Engineering Basics',
-    issuer: 'IBM (Coursera)',
-    instructor: 'Antonio Cangiano',
-    date: 'July 2026',
-    description: 'Learned the fundamentals of crafting effective prompts for generative AI models.',
-    certificatePath: '/certificates/prompt-engineering-basics-certificate.png',
-  },
+
 ];
 
 const CertificateCard = ({ cert, index, isInView }: { cert: typeof certificates[0]; index: number; isInView: boolean }) => {
